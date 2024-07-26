@@ -1,0 +1,64 @@
+body{
+  background: linear-gradient(rgb(255, 255, 255), rgb(87, 5, 87));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+#myH1{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3rem;
+  text-shadow: 3px 3px 5px rgba(134, 1, 90, 0.486);
+}
+#p1{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  
+  text-shadow: -1px 0 #3b3b3b6e, 0 1px #3b3b3b4d, 1px 0 #3b3b3b46, 0 -1px #3b3b3b38;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+details {
+  
+  width: 16cm;
+  border: 2px solid #0a0000;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  margin-left: 34%;
+  font-size: 1.2em; 
+  cursor: pointer;
+}
+
+img{
+  margin-left: 43%;
+}
+
+  
+
+
+details > summary{
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+details[open] {
+  padding: 0.5em;
+
+}
+
+details[open] summary {
+  border-bottom: 1px solid #0000008e;
+  margin-bottom: 0.5em;
+
+}
+
